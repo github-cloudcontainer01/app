@@ -190,7 +190,7 @@ kubectl get svc
 Access the application:
 
 ```
-http://15.206.97.98:3000
+http://15.206.97.98:30669
 ```
 
 ---
