@@ -282,5 +282,5 @@ This project demonstrates a complete CI/CD workflow using Jenkins, Docker, Kuber
 
 Deliverables
 1. GitHub repository link  : https://github.com/github-cloudcontainer01/app.git
-2. Running application URL : 15.206.97.98:3000
+2. Running application URL : 15.206.97.98:30669
 3. Monitoring URL          : 15.206.97.98:31237
