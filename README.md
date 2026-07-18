@@ -126,7 +126,7 @@ docker run -d -p 3000:3000 sample-app
 Verify the application:
 
 ```
-http://localhost:3000
+http://15.206.97.98:3000
 ```
 
 ---
