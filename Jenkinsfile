@@ -11,12 +11,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-    steps {
-        git branch: 'main', credentialsId: 'git_creds',
-            url: 'https://github.com/github-cloudcontainer01/app.git'
-    }
-}
 
         stage('Build Docker Image') {
 
