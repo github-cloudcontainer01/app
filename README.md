@@ -284,3 +284,4 @@ Deliverables
 1. GitHub repository link  : https://github.com/github-cloudcontainer01/app.git
 2. Running application URL : http://15.206.97.98:30669
 3. Monitoring URL          : http://15.206.97.98:31237/d/k8s-resource-monitoring/k8s-resource-monitoring?orgId=1&from=now-30m&to=now&timezone=browser&var-Filters=
+4. Jenkins URL             : http://15.206.97.98:8080/job/project/7/stages/
