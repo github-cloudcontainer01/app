@@ -1,6 +1,8 @@
 pipeline {
-
     agent any
+       tools {
+        nodejs 'Node18'
+    }
 
     environment {
         IMAGE = "dpravin7/sample-app"
