@@ -2,15 +2,17 @@ pipeline {
 
     agent any
 
-    tools {
-        nodejs 'Node18'
-    }
-
     environment {
         IMAGE = "dpravin7/sample-app"
     }
 
     stages {
+        stage('Checkout') {
+    steps {
+        git branch: 'main', credentialsId: 'git_creds',
+            url: 'https://github.com/github-cloudcontainer01/app.git'
+         }
+    }
 
         stage('Build Docker Image') {
 
